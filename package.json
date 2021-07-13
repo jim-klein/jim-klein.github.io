@@ -1,0 +1,23 @@
+{
+  "name": "jim-klein.github.io",
+  "version": "0.0.1",
+  "description": "",
+  "main": "docs/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "eleventy --serve --watch --output=docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jim-klein/jim-klein.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jim-klein/jim-klein.github.io/issues"
+  },
+  "homepage": "https://github.com/jim-klein/jim-klein.github.io#readme"
+}
