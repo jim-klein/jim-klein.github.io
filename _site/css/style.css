@@ -1,0 +1,12 @@
+body {
+  background: rgb(27, 85, 124);
+  font-family: helvetica;
+  margin: 0;
+}
+
+.content {
+  background: #efefef;
+  max-width: 900px;
+  padding: 10px;
+  margin: 0 auto;
+}
