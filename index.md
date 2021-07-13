@@ -5,8 +5,8 @@ title: Eine andere Seite
 
 ## Bonjour
 
-Hier ist was anderes...
+halllooo
 
-[zurück](../)
+[test](./test)
 
 ![lama](https://source.unsplash.com/random/800x600)
