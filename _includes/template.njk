@@ -1,3 +1,6 @@
+---
+title: Jim Klein
+---
 
 <!DOCTYPE HTML>
 <!--
@@ -10,9 +13,9 @@
     <title>Massively by HTML5 UP</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
-    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="{{ '/assets/css/main.css' | url }}" rel="stylesheet">
     <noscript>
-      <link href="/assets/css/noscript.css" rel="stylesheet">
+      <link href="{{ '/assets/css/noscript.css' | url }}" rel="stylesheet">
     </noscript>
   </head>
   <body class="is-preload">
@@ -35,17 +38,17 @@
 
       <!-- Header -->
       <header id="header">
-        <a href="/" class="logo">Massively</a>
+        <a href="{{ '/' | url }}" class="logo">Massively</a>
       </header>
 
       <!-- Nav -->
       <nav id="nav">
         <ul class="links">
           <li class="active">
-            <a href="/">Index</a>
+            <a href="{{ '/' | url }}">Index</a>
           </li>
           <li>
-            <a href="/test">Test</a>
+            <a href="{{ '/test' | url }}">Test</a>
           </li>
         </ul>
         <ul class="icons">
@@ -72,30 +75,7 @@
       <div id="main">
         <!-- Featured Post -->
         <article class="post featured">
-          <header class="major">
-<p><span class="date">April 25, 2017</span></p>
-<h2>Hallöchen</h2>
-<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br>
-facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br>
-amet nullam sed etiam veroeros.</p>
-</header>
-<p>heyheyheysssss
-BLABLA döalwEFälkndm weöldfEPÄDF Nkwälef.ef
-dawd
-awd
-awd
-grsgrgsg
-rgsrgasgrag
-arg
-tjdukz
-kf
-luk rgagkrfiu fkifn kwfmgin gdpa jfiuhfpwdF
-W OölEFÜof +KMFe
-f
-.
-<a href="./test">test</a></p>
-<p><img src="https://source.unsplash.com/random/800x600" alt=""></p>
-
+          {{ content | safe }}
         </article>
       </div>
 
@@ -176,13 +156,13 @@ f
     </div>
 
     <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{{ 'assets/js/jquery.min.js' | url }}"></script>
+    <script src="{{ 'assets/js/jquery.scrollex.min.js' | url }}"></script>
+    <script src="{{ 'assets/js/jquery.scrolly.min.js' | url }}"></script>
+    <script src="{{ 'assets/js/browser.min.js' | url }}"></script>
+    <script src="{{ 'assets/js/breakpoints.min.js' | url }}"></script>
+    <script src="{{ 'assets/js/util.js' | url }}"></script>
+    <script src="{{ 'assets/js/main.js' | url }}"></script>
 
   </body>
 </html>
